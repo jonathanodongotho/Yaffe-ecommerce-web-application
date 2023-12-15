@@ -1,0 +1,272 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-control:focus, .navbar-toggler:focus {
+    border-color: none;
+    box-shadow: none;
+}
+
+.navbar{
+    background: transparent;
+    margin-bottom: ;
+    z-index: 100;
+}
+.menu-bar{
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+.menu-bar .bar-item{
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border: ;
+    background: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bar .bar-item .bar{
+    width: 2rem;
+    height: 4px;
+    background: rgb(224, 224, 224);
+    content: '';
+    margin: 1.5px 0;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.menu-bar .bar-item.cross{
+    
+}
+.menu-bar .bar-item.cross .bar{
+    
+}
+.menu-bar .bar-item.cross .bar-one{
+    transform: rotate(45deg) translateX(5px) translateY(5px);
+
+}
+.menu-bar .bar-item.cross .bar-two{
+    transform: translateX(15px);
+    opacity: 0;
+
+}
+.menu-bar .bar-item.cross .bar-three{
+    transform: rotate(-45deg) translateX(5px) translateY(-5px);
+
+}
+
+.menu-wrapper .menu .nav-link{
+    font-weight: bold;
+    color: rgb(201, 201, 201);
+    padding: .5rem;
+}
+.menu-wrapper .sub-menu .nav-link{
+    color: rgb(255, 144, 70);
+    padding: .1rem .6rem;
+}
+.menu-wrapper .menu .nav-link:hover{
+    background: rgb(172, 172, 172);
+    color: rgb(85, 85, 85);
+}
+.menu-wrapper .sub-menu .nav-link:hover{
+    background: rgb(214, 214, 214);
+    color: rgb(190, 115, 54);
+}
+.intro{
+    height: 38rem;
+    width: 100%;
+    background: black; 
+    position: ;
+    top: ;
+    width: ;
+    align-items: end;
+}
+.car-intro{
+    bottom: ;
+}
+.car-intro h6{
+    color: rgb(163, 163, 163);
+}
+.car-intro h5{
+    color: rgb(245, 245, 245);
+}
+.car-intro-inner{
+    position: relative;
+    bottom: ;
+    top: ;
+}
+.row-large img{
+    width: ;
+    height: 380px;
+    float: right;
+    object-fit: contain;
+}
+.main .us .us-item{
+    width: 12rem;
+    padding: ;
+    margin: .5rem;
+}
+.main .us .us-item .bi{
+    font-size: 3rem;
+}
+
+footer{
+    bottom: 0;
+}
+
+
+@media screen and (max-width: 991px) {
+    .menu-wrapper{
+        background: rgb(255, 255, 255);
+        position: absolute;
+        top: 3.09rem;
+        transition: all .3s ease-in-out;
+        transform: translateX(-65rem);
+    }
+    .menu-wrapper.cross{
+        transform: translateX(0);
+        
+    }
+    input.search{
+        background: rgb(255, 245, 240);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .inner-menu-wrapper{
+        width: 40%;
+    }
+
+    .intro{
+        height: 27rem;
+        width: 100%;
+        background: black; 
+        position: ;
+        top: ;
+        width: ;
+        align-items: end;
+    }
+    .car-intro{
+        padding: 0;
+        background: rgba(10, 10, 10, 0.555);
+        left: 0;
+        right: 0;
+    }
+    .car-intro h6{
+        color: rgb(163, 163, 163);
+    }
+    .car-intro h5{
+        color: rgb(245, 245, 245);
+    }
+    .carousel{
+        padding: 0
+    }
+    .carousel .carousel-inner{
+        height: ;
+        
+    }
+    .carousel .carousel-item{
+        display: ;
+        background: ;
+    }
+    .carousel.slide img{
+        width: ;
+        height: 400px;
+        float: right;
+    }
+    .carousel-caption{
+        display: ;
+        bottom: 3.5rem;
+    }
+    .main .us .us-item{
+        width: ;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .inner-menu-wrapper{
+        width: 50%;
+    }
+    .carousel-caption{
+        display: ;
+        bottom: 8rem;
+    }
+    .intro{
+        height: 35rem;
+
+    }
+    .main .us .us-item{
+        width: 10rem;
+    }
+    
+}
+@media screen and (max-width: 425px){
+    .inner-menu-wrapper{
+        width: 80%;
+    }
+    .carousel-caption{
+        display: ;
+        bottom: 7rem;
+    }
+    .intro{
+        height: 32rem;
+
+    }
+    .main .us .us-item{
+        width: 9rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .inner-menu-wrapper{
+        width: 100%;
+    }
+    .carousel-caption{
+        display: ;
+        bottom: 6.5rem;
+    }
+    .intro{
+        height: 32rem;
+
+    }
+}
+@media screen and (max-width: 320px){
+    .inner-menu-wrapper{
+        width: 100%;
+    }
+    .carousel-caption{
+        display: ;
+        bottom: 5rem;
+    }
+    .intro{
+        height: 30rem;
+    }
+}
+@media screen and (min-width: 1441px){
+    .intro{
+        height: 60rem;
+        width: ;
+        background: ; 
+        position: ;
+        top: ;
+        width: ;
+        align-items: ;
+    }
+    .car-intro-inner{
+        position: relative;
+        bottom: ;
+        top: 12rem;
+    }
+    .car-intro-inner h5{
+        font-size: 3rem !important; 
+    }
+    .carousel.slide img{
+        width: ;
+        height: 45rem;
+        float: right;
+    }
+}
