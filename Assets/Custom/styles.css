@@ -88,6 +88,15 @@
 .main .us .us-item .bi{
     font-size: 3rem;
 }
+.main .payment i{
+    font-size: 1.5rem;
+}
+.main .review-order .review-item img{
+    width: 4rem;
+    height: 5rem;
+    object-fit: contain;
+    object-position: center center;
+}
 
 footer{
     bottom: 0;
