@@ -8,12 +8,6 @@
     border-color: none;
     box-shadow: none;
 }
-
-.navbar{
-    background: transparent;
-    margin-bottom: ;
-    z-index: 100;
-}
 .menu-bar{
     display: flex;
     justify-content: end;
@@ -23,8 +17,6 @@
     cursor: pointer;
     width: 2rem;
     height: 2rem;
-    border: ;
-    background: ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,12 +31,6 @@
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
-.menu-bar .bar-item.cross{
-    
-}
-.menu-bar .bar-item.cross .bar{
-    
-}
 .menu-bar .bar-item.cross .bar-one{
     transform: rotate(45deg) translateX(5px) translateY(5px);
 
@@ -56,11 +42,10 @@
 }
 .menu-bar .bar-item.cross .bar-three{
     transform: rotate(-45deg) translateX(5px) translateY(-5px);
-
 }
 
 .menu-wrapper .menu .nav-link{
-    font-weight: bold;
+    font-weight: 600;
     color: rgb(201, 201, 201);
     padding: .5rem;
 }
@@ -76,38 +61,28 @@
     background: rgb(214, 214, 214);
     color: rgb(190, 115, 54);
 }
-.intro{
-    height: 38rem;
-    width: 100%;
-    background: black; 
-    position: ;
-    top: ;
-    width: ;
-    align-items: end;
-}
-.car-intro{
-    bottom: ;
-}
-.car-intro h6{
-    color: rgb(163, 163, 163);
-}
-.car-intro h5{
-    color: rgb(245, 245, 245);
-}
-.car-intro-inner{
-    position: relative;
-    bottom: ;
-    top: ;
-}
 .row-large img{
-    width: ;
     height: 380px;
     float: right;
     object-fit: contain;
 }
+.main .top-layer .nav-link{
+    padding: 0.3rem;
+}
+.main .nav-link:hover{
+    background: rgb(211, 211, 211);
+}
+.main .top-layer .top-right img{
+    width: 20rem;
+}
+.layer-two .layer-two-right .item img{
+    width: 13rem;
+    height: 13rem;
+    object-fit: contain;
+    object-position: center center;
+}
 .main .us .us-item{
     width: 12rem;
-    padding: ;
     margin: .5rem;
 }
 .main .us .us-item .bi{
@@ -146,9 +121,6 @@ footer{
         height: 27rem;
         width: 100%;
         background: black; 
-        position: ;
-        top: ;
-        width: ;
         align-items: end;
     }
     .car-intro{
@@ -166,25 +138,12 @@ footer{
     .carousel{
         padding: 0
     }
-    .carousel .carousel-inner{
-        height: ;
-        
-    }
-    .carousel .carousel-item{
-        display: ;
-        background: ;
-    }
     .carousel.slide img{
-        width: ;
         height: 400px;
         float: right;
     }
     .carousel-caption{
-        display: ;
         bottom: 3.5rem;
-    }
-    .main .us .us-item{
-        width: ;
     }
     
 }
@@ -193,24 +152,20 @@ footer{
         width: 50%;
     }
     .carousel-caption{
-        display: ;
         bottom: 8rem;
     }
     .intro{
         height: 35rem;
-
     }
     .main .us .us-item{
         width: 10rem;
     }
-    
 }
 @media screen and (max-width: 425px){
     .inner-menu-wrapper{
         width: 80%;
     }
     .carousel-caption{
-        display: ;
         bottom: 7rem;
     }
     .intro{
@@ -226,12 +181,10 @@ footer{
         width: 100%;
     }
     .carousel-caption{
-        display: ;
         bottom: 6.5rem;
     }
     .intro{
         height: 32rem;
-
     }
 }
 @media screen and (max-width: 320px){
@@ -239,7 +192,6 @@ footer{
         width: 100%;
     }
     .carousel-caption{
-        display: ;
         bottom: 5rem;
     }
     .intro{
@@ -247,26 +199,6 @@ footer{
     }
 }
 @media screen and (min-width: 1441px){
-    .intro{
-        height: 60rem;
-        width: ;
-        background: ; 
-        position: ;
-        top: ;
-        width: ;
-        align-items: ;
-    }
-    .car-intro-inner{
-        position: relative;
-        bottom: ;
-        top: 12rem;
-    }
-    .car-intro-inner h5{
-        font-size: 3rem !important; 
-    }
-    .carousel.slide img{
-        width: ;
-        height: 45rem;
-        float: right;
-    }
+
+    
 }
