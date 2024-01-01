@@ -8,7 +8,7 @@ Ecommerce web application using bootstrap, html, css, javascript, php(Laravel), 
 **Categories*
 **Brands*
 **Checkout*
-**Item details
+**Item details*
 **Shopping cart*
 **About us
 **FAQ
